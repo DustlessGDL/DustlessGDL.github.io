@@ -229,6 +229,9 @@ ul { list-style: none; }
   padding-top: 40px;
   border-top: 1px solid rgba(255,255,255,0.15);
 }
+.stat {
+  text-align: center;
+}
 .stat-number {
   display: block;
   font-size: 2rem;
