@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150">
+  <defs>
+    <linearGradient id="metal2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e0e0"/>
+      <stop offset="50%" style="stop-color:#c8c8c8"/>
+      <stop offset="100%" style="stop-color:#999999"/>
+    </linearGradient>
+    
+    <linearGradient id="green2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#1B5E20"/>
+    </linearGradient>
+
+    <linearGradient id="greenBar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B5E20"/>
+      <stop offset="100%" style="stop-color:#4CAF50"/>
+    </linearGradient>
+    
+    <filter id="sh2" x="-3%" y="-3%" width="106%" height="112%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- DUSTLESS -->
+  <text x="300" y="68" text-anchor="middle" font-family="'Impact','Arial Black',sans-serif" font-size="68" font-weight="900" letter-spacing="8" fill="url(#metal2)" filter="url(#sh2)">DUSTLESS</text>
+
+  <!-- Green line -->
+  <rect x="95" y="80" width="410" height="2.5" rx="1.25" fill="url(#greenBar2)"/>
+
+  <!-- BLASTING GDL — tighter spacing -->
+  <text x="300" y="122" text-anchor="middle" font-family="'Impact','Arial Black',sans-serif" font-size="42" font-weight="900" letter-spacing="6" fill="url(#green2)" filter="url(#sh2)">BLASTING GDL</text>
+</svg>
